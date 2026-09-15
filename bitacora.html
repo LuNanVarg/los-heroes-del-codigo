@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEWS: Héroes del código - Bitácora</title>
+  <link rel="icon" type="image/png" href="img/periodico.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="newspaper-container">
+    
+    <header class="top-bar">
+      <div class="news-brand">NEWS: Héroes del código</div>
+      <div class="nav-actions">
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Abrir menú" aria-expanded="false">
+          ☰
+        </button>
+        <nav class="main-nav" id="mainNav">
+          <ul>
+            <li><a href="index.html" class="btn-nav">HOME</a></li>
+            <li><a href="bitacora.html" class="btn-nav active-page">BITÁCORA</a></li>
+            <li><a href="index.html#contacto" class="btn-nav">CONTACTO</a></li>
+          </ul>
+        </nav>
+        <button id="themeToggle" class="btn-theme-toggle" aria-label="Cambiar a estilo diario impreso" title="Cambiar edición">
+          <img src="img/noticias-icon.png" alt="Cambiar edición" class="btn-icon">
+        </button>
+      </div>
+    </header>
+
+    <main class="bitacora-main">
+      <div class="bitacora-header">
+        <h1 class="bitacora-title">BITÁCORA</h1>
+        <p class="bitacora-subtitle">
+          Esta sección documenta el detrás de la toma de decisiones, diseño y desarrollo de la página web para el TP1.
+        </p>
+      </div>
+
+      <section class="timeline-center">
+        
+        <article class="timeline-entry left">
+          <div class="timeline-content">
+            <div class="timeline-date">0 1 - 0 9 - 2 0 2 6</div>
+            <h3 class="entry-title">Acuerdos Iniciales y Definición Estética</h3>
+            <p>
+              El código ha comenzado a articularse. Frente al colapso de ideas dispersas, el equipo acordó una estética de periódico editorial clásico. Se definieron las fuentes Anton SC y Vollkorn en Figma y la paleta cromática con el modo diario impreso.
+            </p>
+          </div>
+          <div class="timeline-marker"></div>
+        </article>
+
+        <article class="timeline-entry right">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">0 4 - 0 9 - 2 0 2 6</div>
+            <h3 class="entry-title">Maquetación Semántica y Breakpoints</h3>
+            <p>
+              Estabilidad y estructura para nuestra web: se crearon las páginas individuales y la portada modular. Diseñamos la grilla adaptable para cumplir estrictamente los breakpoints de 400px, 900px y 1200px sin desbordes.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-entry left">
+          <div class="timeline-content">
+            <div class="timeline-date">0 8 - 0 9 - 2 0 2 6</div>
+            <h3 class="entry-title">Interactividad JS y Despliegue</h3>
+            <p>
+              La salvación ha llegado con funciones dinámicas: carrusel para explorar a los héroes de la interfaz, alternador de edición papel con almacenamiento local y publicación continua en Vercel para la entrega oficial.
+            </p>
+          </div>
+          <div class="timeline-marker"></div>
+        </article>
+
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 • TP1 • Grupo 17 • Frontend • TSDS • IFTS N°29</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEWS: Perfil de Marisol Alcaraz</title>
+  <link rel="icon" type="image/x-icon" href="img/mar/marisol.ico">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="newspaper-container">
+    
+    <header class="top-bar">
+      <div class="news-brand">NEWS: Héroes del código</div>
+      <div class="nav-actions">
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Abrir menú" aria-expanded="false">
+          ☰
+        </button>
+        <nav class="main-nav" id="mainNav">
+          <ul>
+            <li><a href="index.html" class="btn-nav">HOME</a></li>
+            <li><a href="bitacora.html" class="btn-nav">BITÁCORA</a></li>
+            <li><a href="index.html#contacto" class="btn-nav">CONTACTO</a></li>
+          </ul>
+        </nav>
+        <button id="themeToggle" class="btn-theme-toggle" aria-label="Cambiar estilo de diario impreso" title="Cambiar edición">
+          <img src="img/noticias-icon.png" alt="Icono edición" class="btn-icon">
+        </button>
+      </div>
+    </header>
+
+    <main class="profile-layout">
+      
+      <header class="profile-identity">
+        <h1>Marisol Alcaraz</h1>
+        <p>Desarrolladora Full Stack</p>
+      </header>
+
+      <aside class="profile-aside">
+        <div class="profile-photo-frame">
+          <img src="img/marisol.jpeg" alt="Foto de Marisol Alcaraz">
+          <p class="photo-caption">Fig. 01 — Marisol Alcaraz</p>
+        </div>
+      </aside>
+
+      <section class="profile-main-data">
+        
+        <article class="profile-meta-card">
+          <p><strong>Ciudad:</strong> Buenos Aires, Argentina</p>
+          <p><strong>Edad:</strong> 32 años</p>
+          <div class="profile-links">
+            <a href="https://github.com/Marisol14" target="_blank" rel="noopener noreferrer" class="profile-link-btn">
+              <img src="img/github.png" alt="GitHub" class="btn-icon">
+              <span>GitHub</span>
+            </a>
+            <a href="https://pfo1-weld.vercel.app/" target="_blank" rel="noopener noreferrer" class="profile-link-btn">
+              <img src="img/web.png" alt="Portfolio" class="btn-icon">
+              <span>Portfolio</span>
+            </a>
+          </div>
+        </article>
+
+        <article>
+          <h2 class="profile-section-title">Habilidades Técnicas</h2>
+          <div class="skills-tags">
+            <span class="skill-tag">Diseño e Interfaz</span>
+            <span class="skill-tag">GitHub / Git</span>
+            <span class="skill-tag">Figma / UX/UI</span>
+            <span class="skill-tag">C# / JavaScript</span>
+          </div>
+        </article>
+
+        <article>
+          <h2 class="profile-section-title">Películas Favoritas</h2>
+          <div class="media-grid">
+            <div class="media-card">
+              <img src="img/mar/peli-titanic.png" alt="Titanic">
+              <h4>Titanic</h4>
+              <p>Dir. James Cameron</p>
+              <a href="https://es.wikipedia.org/wiki/Titanic_(pel%C3%ADcula_de_1997)" target="_blank" rel="noopener noreferrer">Wikipedia</a>
+            </div>
+
+            <div class="media-card">
+              <img src="img/mar/peli-atonement.png" alt="Atonement">
+              <h4>Atonement</h4>
+              <p>Dir. Joe Wright</p>
+              <a href="https://es.wikipedia.org/wiki/Atonement_(pel%C3%ADcula)" target="_blank" rel="noopener noreferrer">Wikipedia</a>
+            </div>
+
+            <div class="media-card">
+              <img src="img/mar/peli-orgullo.png" alt="Orgullo y prejuicio">
+              <h4>Orgullo y prejuicio</h4>
+              <p>Dir. Joe Wright</p>
+              <a href="https://es.wikipedia.org/wiki/Orgullo_y_prejuicio_(pel%C3%ADcula_de_2005)" target="_blank" rel="noopener noreferrer">Wikipedia</a>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <h2 class="profile-section-title">Discos Favoritos</h2>
+          <ul class="compact-list">
+            <li><strong>Folklore</strong> — Taylor Swift</li>
+            <li><strong>Ahí Vamos</strong> — Gustavo Cerati</li>
+            <li><strong>Vorágine</strong> — Airbag</li>
+          </ul>
+        </article>
+
+        <article>
+          <h2 class="profile-section-title">Lecturas & Pasatiempos</h2>
+          <ul class="compact-list">
+            <li><strong>Lecturas:</strong> <em>Mi planta de naranja lima</em> (José Mauro de Vasconcelos) y <em>Un paseo para recordar</em> (Nicholas Sparks).</li>
+            <li><strong>Hobbies:</strong> Ver documentales policiales y pasar tiempo con mis mascotas.</li>
+          </ul>
+        </article>
+
+        <article class="interactive-zone" data-member="marisol">
+          <h3 style="font-family: var(--font-title); font-size: 1.2rem; letter-spacing: 1px; margin-bottom: 8px;">CITA EDITORIAL</h3>
+          <p id="quoteDisplay" style="font-style: italic; margin-bottom: 12px;">"No te rindas, por favor no cedas, aunque el frío queme, aunque el miedo muerda…"</p>
+          <button id="toggleQuoteBtn" class="btn-nav">Nueva Frase</button>
+        </article>
+
+        <div class="bottom-nav-row">
+          <a href="vargas-nancy.html" class="btn-nav">&larr; Nancy</a>
+          <a href="index.html" class="btn-nav">Volver a la Portada</a>
+          <a href="artine-marcos.html" class="btn-nav">Marcos &rarr;</a>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer>
+      <p>© 2026 • TP1 • Grupo 17 • Frontend • TSDS • IFTS N°29</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/perfil.js"></script>
+</body>
+</html>

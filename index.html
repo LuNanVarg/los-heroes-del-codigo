@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEWS: Héroes del código</title>
+  <link rel="icon" type="image/periodico" href="img/periodico.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="newspaper-container">
+    
+    <header class="top-bar">
+      <div class="news-brand">NEWS: Héroes del código</div>
+      <div class="nav-actions">
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Abrir menú" aria-expanded="false">
+          ☰
+        </button>
+        <nav class="main-nav" id="mainNav">
+          <ul>
+            <li><a href="index.html" class="btn-nav">HOME</a></li>
+            <li><a href="bitacora.html" class="btn-nav">BITÁCORA</a></li>
+            <li><a href="index.html#contacto" class="btn-nav">CONTACTO</a></li>
+          </ul>
+        </nav>
+        <button id="themeToggle" class="btn-theme-toggle" aria-label="Cambiar estilo de diario impreso" title="Cambiar edición">
+          <img src="img/noticias-icon.png" alt="Icono edición" class="btn-icon">
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="header-hero">
+        <h1 class="main-headline">¿ESTAMOS A SALVO?</h1>
+        <h2 class="main-subheadline">LA PREGUNTA QUE ATORMENTA A LA WEB.</h2>
+        
+        <div class="two-columns-text">
+          <p>
+            El código ha encontrado a sus verdaderos protectores. Frente al colapso de las interfaces lentas y los errores sin resolver, una nueva fuerza acaba de tomar el control para traernos estabilidad y magia a nuestra web.
+          </p>
+          <p>
+            La salvación ha llegado: Revelaremos la identidad de cada uno de ellos y descubriremos de qué son capaces los auténticos héroes de la interfaz.
+          </p>
+        </div>
+
+        <div class="section-arrow">&darr;</div>
+      </section>
+
+      <section class="team-section">
+        <h2 class="section-title">LOS HÉROES DEL CÓDIGO</h2>
+        <div class="slider-wrapper">
+          <button id="prevBtn" class="slider-arrow" aria-label="Anterior">&#8592;</button>
+          
+          <div class="cards-container" id="membersSlider">
+            <!-- Marisol Alcaraz -->
+            <article class="member-item">
+              <img src="img/marisol.jpeg" alt="Marisol Alcaraz">
+              <h3>Marisol</h3>
+              <a href="alcaraz-marisol.html" class="btn-nav">Ver Perfil</a>
+            </article>
+
+            <!-- Marcos Artine -->
+            <article class="member-item">
+              <img src="img/marcos.jpeg" alt="Marcos Artine">
+              <h3>Marcos</h3>
+              <a href="artine-marcos.html" class="btn-nav">Ver Perfil</a>
+            </article>
+
+            <!-- Anahi Cardozo -->
+            <article class="member-item">
+              <img src="img/anahi.jpeg" alt="Anahi Cardozo">
+              <h3>Anahi</h3>
+              <a href="cardozo-anahi.html" class="btn-nav">Ver Perfil</a>
+            </article>
+
+            <!-- Ezequiel Cattalín -->
+            <article class="member-item">
+              <img src="img/ezequiel.jpeg" alt="Ezequiel Cattalín">
+              <h3>Ezequiel</h3>
+              <a href="cattalin-ezequiel.html" class="btn-nav">Ver Perfil</a>
+            </article>
+
+            <!-- Nancy Vargas -->
+            <article class="member-item">
+              <img src="img/nancy.jpeg" alt="Nancy Vargas">
+              <h3>Nancy</h3>
+              <a href="vargas-nancy.html" class="btn-nav">Ver Perfil</a>
+            </article>
+          </div>
+
+          <button id="nextBtn" class="slider-arrow" aria-label="Siguiente">&#8594;</button>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto" class="contact-section">
+        <h2 class="section-title">CONTACTO</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="nombre">Nombre y apellido:</label>
+            <input type="text" id="nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="mail">Mail:</label>
+            <input type="email" id="mail" required>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">¿En qué te podemos ayudar?</label>
+            <textarea id="mensaje" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">ENVIAR</button>
+        </form>
+        <p id="formFeedback" style="display: none; margin-top: 10px; font-weight: bold;"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 • TP1 • Grupo 17 • Frontend • TSDS • IFTS N°29</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
