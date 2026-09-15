@@ -34,11 +34,33 @@ un sistema de navegación continuo, desarrollado íntegramente con tecnologías 
   * Hover / Acción: `#C01C1C`
 
 ## Funcionalidades e Interactividad JS
+
 * **Navegación Global:** Barra de navegación fija (`position: sticky`) con menú hamburguesa adaptativo para dispositivos móviles.
+
+  <!-- CAPTURA: menú hamburguesa abierto en una vista mobile -->
+  <!-- <img src="img/capturas/nav-mobile.png" alt="Menú hamburguesa abierto en vista mobile"> -->
+
 * **Modo Vintage Persistente:** Alternador de edición impresa que almacena la preferencia del usuario en `localStorage`.
+
+  <!-- CAPTURA: comparación modo normal vs. modo vintage activado -->
+  <!-- <img src="img/capturas/theme-toggle.png" alt="Comparación entre modo normal y modo vintage"> -->
+
 * **Carrusel de Miembros:** Navegación por desplazamiento horizontal suave (`scrollBy`).
+
+  <!-- CAPTURA: portada con el carrusel de integrantes visible -->
+  <!-- <img src="img/capturas/carrusel-portada.png" alt="Carrusel de integrantes en la portada"> -->
+
 * **Formulario de Contacto:** Captura de eventos `submit`, supresión de recarga por defecto (`preventDefault`) y feedback visual dinámico.
+
+  <!-- CAPTURA: formulario con el mensaje de feedback ya disparado -->
+  <!-- <img src="img/capturas/form-feedback.png" alt="Formulario de contacto mostrando el feedback tras el envío"> -->
+
 * **Citas Editoriales Dinámicas:** Generador de frases aleatorias con algoritmo anti-repetición (`do...while`), personalizado por integrante mediante atributos `data-member`.
+
+  <!-- CAPTURA: perfil individual con una cita mostrada y el botón "Nueva Frase" -->
+  <!-- <img src="img/capturas/cita-perfil.png" alt="Perfil individual mostrando la cita editorial y el botón Nueva Frase"> -->
+
+> 📸 *Pendiente: reemplazar los comentarios de arriba por las capturas reales una vez sacadas (guardarlas en `img/capturas/` y sacar el comentario HTML para que se vean).*
 
 ## Estructura de Archivos
 ```text
@@ -65,16 +87,15 @@ un sistema de navegación continuo, desarrollado íntegramente con tecnologías 
 ```
 
 ## Flujo de Trabajo con Git y GitHub
-Para garantizar un desarrollo colaborativo ordenado y evitar conflictos en el código fuente, el equipo implementó las siguientes prácticas:
 * **Estandarización de Nomenclatura:** Adopción estricta de nombres en minúsculas y guiones medios para archivos (`apellido-nombre.html`) y assets multimedia, evitando fallos de despliegue en entornos Linux/Vercel.
-* **Control de Versiones y Ramas:** Trabajo iterativo mediante branches temáticas para cada pantalla y funcionalidad, integrando los cambios a la rama principal mediante Pull Requests revisados.
-* **Historial Claro de Commits:** Registro descriptivo de avances que reflejan el proceso cronológico de maquetación semántica, ajustes de breakpoints e integración de scripts.
+* **Esta entrega (TP1):** para esta primera entrega centralizamos la integración del proyecto en un commit único, priorizando cerrar a tiempo la maquetación, los estilos y la interactividad.
+* **Próxima entrega:** a partir de la 2da entrega vamos a trabajar con branches por integrante y Pull Requests revisados antes de mergear a `main`, para que el historial de commits refleje el aporte individual de cada uno.
 
 ## Declaración sobre Uso de IA
-* **Herramienta y Modelo:** OpenCode, Gemini.
+* **Herramienta y Modelo:** OpenCode (plan gratuito), Gemini (plan estudiantil).
+* **Experiencia previa del equipo:** el equipo ya había usado estas herramientas en trabajos anteriores de la cursada.
 * **Alcance:** Asistencia técnica en la optimización de selectores responsivos, estructuración semántica en CSS Grid y depuración de lógica en JavaScript nativo.
 * **Criterio propio:** El equipo definió la arquitectura del proyecto, la elección y cambio definitivo de las fuentes tipográficas (`Bebas Neue` y `Vollkorn`), el diseño en Figma, la resolución de conflictos y correcciones estructurales en CSS Grid (`grid-template-areas`), la curaduría del contenido multimedia, la redacción de la bitácora y la validación en múltiples navegadores y dispositivos.
 
 ## Agradecimientos
 Queremos destacar y agradecer el compromiso, la dedicación y el excelente clima de trabajo que mantuvimos a lo largo de todo el desarrollo del proyecto. La predisposición constante para resolver dudas técnicas, coordinar acuerdos de diseño en equipo y apoyarnos en cada entrega fue clave para alcanzar un resultado del cual estamos sumamente orgullosos como Grupo 17.
-
