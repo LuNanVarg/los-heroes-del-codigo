@@ -443,9 +443,6 @@ footer {
   margin-top: auto;
 }
 
-/* ========================================================
-   ESTILOS DE PÁGINAS DE PERFIL
-======================================================== */
 .profile-layout {
   display: grid;
   grid-template-columns: 1fr 280px;
@@ -457,7 +454,6 @@ footer {
   margin-top: 30px;
 }
 
-/* Área Identidad (Nombre y título) */
 .profile-identity {
   grid-area: identity;
 }
@@ -478,7 +474,6 @@ footer {
   margin-top: 5px;
 }
 
-/* Área Columna Derecha: Foto fija */
 .profile-aside {
   grid-area: aside;
   position: sticky;
@@ -511,7 +506,6 @@ footer {
   margin-top: 8px;
 }
 
-/* Área Columna Izquierda: Información restante */
 .profile-main-data {
   grid-area: data;
   display: flex;
@@ -692,7 +686,7 @@ footer {
     position: absolute;
     top: 100%;
     right: 0;
-    background: rgba(255, 255, 255, 0.4); /* Transparencia exacta solicitada */
+    background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     border: var(--border-line);
