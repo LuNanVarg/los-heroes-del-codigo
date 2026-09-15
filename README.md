@@ -16,7 +16,7 @@ Sitio web concebido bajo una identidad visual de periódico editorial retro ("NE
 un sistema de navegación continuo, desarrollado íntegramente con tecnologías nativas sin librerías ni frameworks externos.
 
 ## URL de Producción (Vercel)
-🔗 
+🔗 [https://los-heroes-del-codigo.vercel.app/](https://los-heroes-del-codigo.vercel.app/)
 
 ## Arquitectura y Tecnologías
 * **HTML5 Semántico:** Estructura modular basada en `<header>`, `<main>`, `<section>`, `<article>`, `<aside>` y `<footer>`.
