@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. Alternador de Modo Periódico (Vintage) con persistencia
+
   const themeToggle = document.getElementById('themeToggle');
   const body = document.body;
 
@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 2. Carrusel / Slider de Héroes del Código
   const slider = document.getElementById('membersSlider');
   const prevBtn = document.getElementById('prevBtn');
   const nextBtn = document.getElementById('nextBtn');
@@ -34,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 3. Formulario de Contacto
   const contactForm = document.getElementById('contactForm');
   const feedback = document.getElementById('formFeedback');
 
@@ -49,7 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 4. Menú Hamburguesa Responsivo
   const hamburgerBtn = document.getElementById('hamburgerBtn');
   const mainNav = document.getElementById('mainNav');
 
@@ -70,12 +67,10 @@ document.addEventListener('DOMContentLoaded', () => {
       toggleMenu();
     });
 
-    // Cierra el menú al hacer clic en cualquiera de los enlaces
     mainNav.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', closeMenu);
     });
 
-    // Cierra el menú al hacer clic en cualquier parte fuera de él
     document.addEventListener('click', (e) => {
       if (!mainNav.contains(e.target) && e.target !== hamburgerBtn) {
         closeMenu();
