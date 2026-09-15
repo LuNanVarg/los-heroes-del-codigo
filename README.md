@@ -73,7 +73,7 @@ Para garantizar un desarrollo colaborativo ordenado y evitar conflictos en el c�
 ## Declaración sobre Uso de IA
 * **Herramienta y Modelo:** OpenCode, Gemini.
 * **Alcance:** Asistencia técnica en la optimización de selectores responsivos, estructuración semántica en CSS Grid y depuración de lógica en JavaScript nativo.
-* * **Criterio propio:** El equipo definió la arquitectura del proyecto, la elección y cambio definitivo de las fuentes tipográficas (`Bebas Neue` y `Vollkorn`), el diseño en Figma, la resolución de conflictos y correcciones estructurales en CSS Grid (`grid-template-areas`), la curaduría del contenido multimedia, la redacción de la bitácora y la validación en múltiples navegadores y dispositivos.
+* **Criterio propio:** El equipo definió la arquitectura del proyecto, la elección y cambio definitivo de las fuentes tipográficas (`Bebas Neue` y `Vollkorn`), el diseño en Figma, la resolución de conflictos y correcciones estructurales en CSS Grid (`grid-template-areas`), la curaduría del contenido multimedia, la redacción de la bitácora y la validación en múltiples navegadores y dispositivos.
 
 ## Agradecimientos
 Queremos destacar y agradecer el compromiso, la dedicación y el excelente clima de trabajo que mantuvimos a lo largo de todo el desarrollo del proyecto. La predisposición constante para resolver dudas técnicas, coordinar acuerdos de diseño en equipo y apoyarnos en cada entrega fue clave para alcanzar un resultado del cual estamos sumamente orgullosos como Grupo 17.
