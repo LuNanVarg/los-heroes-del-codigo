@@ -1,4 +1,4 @@
-# Trabajo Práctico Grupal 1 — Héroes del Código
+# TPG 1 — Los Héroes del Código
 **Desarrollo de Sistemas Web Front End • TSDS • IFTS N°29 • Ciclo 2026**
 
 ## Docente de la Materia
