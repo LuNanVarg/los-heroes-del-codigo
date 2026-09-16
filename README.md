@@ -36,31 +36,36 @@ un sistema de navegación continuo, desarrollado íntegramente con tecnologías 
 ## Funcionalidades e Interactividad JS
 
 * **Navegación Global:** Barra de navegación fija (`position: sticky`) con menú hamburguesa adaptativo para dispositivos móviles.
-
-  <!-- CAPTURA: menú hamburguesa abierto en una vista mobile -->
-  <!-- <img src="img/capturas/nav-mobile.png" alt="Menú hamburguesa abierto en vista mobile"> -->
+<img src="img/capturas/nav-mobile.png" alt="Menú hamburguesa abierto en vista mobile"> 
 
 * **Modo Vintage Persistente:** Alternador de edición impresa que almacena la preferencia del usuario en `localStorage`.
-
-  <!-- CAPTURA: comparación modo normal vs. modo vintage activado -->
-  <!-- <img src="img/capturas/theme-toggle.png" alt="Comparación entre modo normal y modo vintage"> -->
+  <img src="img/capturas/theme-toggle.png" alt="Comparación entre modo normal y modo vintage"> 
 
 * **Carrusel de Miembros:** Navegación por desplazamiento horizontal suave (`scrollBy`).
-
-  <!-- CAPTURA: portada con el carrusel de integrantes visible -->
-  <!-- <img src="img/capturas/carrusel-portada.png" alt="Carrusel de integrantes en la portada"> -->
+<img src="img/capturas/carrusel-portada.png" alt="Carrusel de integrantes en la portada">
 
 * **Formulario de Contacto:** Captura de eventos `submit`, supresión de recarga por defecto (`preventDefault`) y feedback visual dinámico.
-
-  <!-- CAPTURA: formulario con el mensaje de feedback ya disparado -->
-  <!-- <img src="img/capturas/form-feedback.png" alt="Formulario de contacto mostrando el feedback tras el envío"> -->
+ <img src="img/capturas/form-feedback.png" alt="Formulario de contacto mostrando el feedback tras el envío">
 
 * **Citas Editoriales Dinámicas:** Generador de frases aleatorias con algoritmo anti-repetición (`do...while`), personalizado por integrante mediante atributos `data-member`.
+<img src="img/capturas/cita-perfil.png" alt="Perfil individual mostrando la cita editorial y el botón Nueva Frase"> 
 
-  <!-- CAPTURA: perfil individual con una cita mostrada y el botón "Nueva Frase" -->
-  <!-- <img src="img/capturas/cita-perfil.png" alt="Perfil individual mostrando la cita editorial y el botón Nueva Frase"> -->
+* **Interacciones Individuales por Perfil:** además de la cita compartida, cada integrante sumó su propia segunda función dinámica, implementada en un `<script>` propio dentro de cada página:
+  * **Marisol:** click en su foto alterna entre color y blanco y negro.
+     <img src="img/capturas/interaccion-marisol.png" alt="interaccion-marisol"> 
+  
+  * **Marcos:** click en cada película muestra/oculta su sinopsis.
+      <img src="img/capturas/interaccion-marcos.png" alt="interaccion-marcos"> 
 
-> 📸 *Pendiente: reemplazar los comentarios de arriba por las capturas reales una vez sacadas (guardarlas en `img/capturas/` y sacar el comentario HTML para que se vean).*
+  * **Anahi:** al pasar el mouse por un disco aparece un dato asociado.
+     <img src="img/capturas/interaccion-anahi.png" alt="interaccion-anahi"> 
+
+  * **Ezequiel:** botón contador de "veces que la vi" por película.
+     <img src="img/capturas/interaccion-ezequiel.png" alt="interaccion-ezequiel"> 
+
+  * **Nancy:** click en cada habilidad muestra una descripción corta.
+    <img src="img/capturas/interaccion-nancy.png" alt="interaccion-nancy"> 
+
 
 ## Estructura de Archivos
 ```text
@@ -83,6 +88,7 @@ un sistema de navegación continuo, desarrollado íntegramente con tecnologías 
     ├── github.png
     ├── web.png
     ├── fotografía de los integrantes.jpeg
+    ├── capturas/  (screenshots de las funcionalidades)
     └── [carpetas de fotografías y afiches multimedia de los integrantes (anni, eze, mar, marc, nan)]
 ```
 
