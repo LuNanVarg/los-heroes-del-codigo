@@ -70,6 +70,7 @@
               <img src="img/marc/peli-mulan.png" alt="Mulán">
               <h4>Mulán</h4>
               <p>Dir. Tony Bancroft • Barry Cook</p>
+              <p class="sinopsis" hidden><b>Una joven se hace pasar por soldado para salvar a su familia.</b></p>
               <a href="https://es.wikipedia.org/wiki/Mulan" target="_blank" rel="noopener noreferrer">Wikipedia</a>
             </div>
 
@@ -77,6 +78,7 @@
               <img src="img/marc/peli-camino.png" alt="El camino hacia El Dorado">
               <h4>El camino hacia El Dorado</h4>
               <p>Dir. Bibo Bergeron • Don PaulJeffrey • Katzenberg</p>
+              <p class="sinopsis" hidden><b>Un joven explorador y su amigo descubren un reino mítico llamado El Dorado.</b></p>
               <a href="https://es.wikipedia.org/wiki/The_Road_to_El_Dorado" target="_blank" rel="noopener noreferrer">Wikipedia</a>
             </div>
 
@@ -84,6 +86,7 @@
               <img src="img/marc/peli-v.png" alt="V de venganza">
               <h4>V de venganza</h4>
               <p>Dir. James McTeigue</p>
+              <p class="sinopsis" hidden> <b>En un futuro distópico, un hombre lucha contra un régimen opresivo.</b></p>
               <a href="https://es.wikipedia.org/wiki/V_for_Vendetta_(pel%C3%ADcula)" target="_blank" rel="noopener noreferrer">Wikipedia</a>
             </div>
           </div>
@@ -136,5 +139,15 @@
 
   <script src="js/main.js"></script>
   <script src="js/perfil.js"></script>
+  <script>
+    document.querySelectorAll('.media-card').forEach(card => {
+      card.style.cursor = 'pointer';
+      card.addEventListener('click', () => {
+        const sinopsis = card.querySelector('.sinopsis');
+        if (sinopsis) sinopsis.hidden = !sinopsis.hidden;
+      });
+    });
+  </script>
+
 </body>
 </html>
