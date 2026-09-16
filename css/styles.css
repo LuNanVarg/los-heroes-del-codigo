@@ -440,6 +440,10 @@ body.vintage-mode .top-bar {
   color: #333333;
 }
 
+.foto-bn { 
+  filter: grayscale(100%); 
+}
+
 footer {
   text-align: center;
   font-size: 0.85rem;
