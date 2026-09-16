@@ -39,16 +39,16 @@ un sistema de navegación continuo, desarrollado íntegramente con tecnologías 
 <img src="img/capturas/nav-mobile.png" alt="Menú hamburguesa abierto en vista mobile"> 
 
 * **Modo Vintage Persistente:** Alternador de edición impresa que almacena la preferencia del usuario en `localStorage`.
-  <img src="img/capturas/theme-toggle.png" alt="Comparación entre modo normal y modo vintage"> 
+  <img src="img/capturas/tema.png" alt="tema"> 
 
 * **Carrusel de Miembros:** Navegación por desplazamiento horizontal suave (`scrollBy`).
-<img src="img/capturas/carrusel-portada.png" alt="Carrusel de integrantes en la portada">
+<img src="img/capturas/Carrusel.png" alt="Carrusel">
 
 * **Formulario de Contacto:** Captura de eventos `submit`, supresión de recarga por defecto (`preventDefault`) y feedback visual dinámico.
- <img src="img/capturas/form-feedback.png" alt="Formulario de contacto mostrando el feedback tras el envío">
+ <img src="img/capturas/formulario.png" alt="Formulario">
 
 * **Citas Editoriales Dinámicas:** Generador de frases aleatorias con algoritmo anti-repetición (`do...while`), personalizado por integrante mediante atributos `data-member`.
-<img src="img/capturas/cita-perfil.png" alt="Perfil individual mostrando la cita editorial y el botón Nueva Frase"> 
+<img src="img/capturas/cita.png" alt="cita editorial"> 
 
 * **Interacciones Individuales por Perfil:** además de la cita compartida, cada integrante sumó su propia segunda función dinámica, implementada en un `<script>` propio dentro de cada página:
   * **Marisol:** click en su foto alterna entre color y blanco y negro.
