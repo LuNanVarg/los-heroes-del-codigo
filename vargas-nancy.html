@@ -56,11 +56,12 @@
         <article>
           <h2 class="profile-section-title">Habilidades Técnicas</h2>
           <div class="skills-tags">
-            <span class="skill-tag">Testing / QA</span>
-            <span class="skill-tag">GitHub / Git</span>
-            <span class="skill-tag">Python / C# / MySQL</span>
-            <span class="skill-tag">Docente de Tecnología</span>
+            <span class="skill-tag" data-desc="Diseño y ejecución de casos de prueba manuales y automatizados.">Testing / QA</span>
+            <span class="skill-tag" data-desc="Control de versiones y colaboración en repositorios compartidos.">GitHub / Git</span>
+            <span class="skill-tag" data-desc="Desarrollo backend y bases de datos relacionales.">Python / C# / MySQL</span>
+            <span class="skill-tag" data-desc="Enseño tecnología a chicos de primaria en la escuela.">Docente de Tecnología</span>
           </div>
+          <p id="skillDesc" style="min-height: 1.2em; font-style: italic;"></p>
         </article>
 
         <article>
@@ -136,5 +137,14 @@
 
   <script src="js/main.js"></script>
   <script src="js/perfil.js"></script>
+  <script>
+    const skillDesc = document.getElementById('skillDesc');
+    document.querySelectorAll('.skill-tag[data-desc]').forEach(tag => {
+      tag.style.cursor = 'pointer';
+      tag.addEventListener('click', () => {
+        skillDesc.textContent = tag.dataset.desc;
+      });
+    });
+  </script>
 </body>
 </html>
