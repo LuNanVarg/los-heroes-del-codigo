@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const currentMember = interactiveZone.dataset.member || 'anahi';
   const quotesList = memberQuotes[currentMember] || memberQuotes.anahi;
-  let lastIndex = -1;
+  let lastIndex = 0;
 
   toggleQuoteBtn.addEventListener('click', () => {
     let randomIndex;
