@@ -71,6 +71,7 @@
               <h4>The Shawshank Redemption</h4>
               <p>Dir. Frank Darabont</p>
               <a href="https://es.wikipedia.org/wiki/The_Shawshank_Redemption" target="_blank" rel="noopener noreferrer">Wikipedia</a>
+              <button class="btn-nav contador-btn" data-count="0">La vi O veces</button>
             </div>
 
             <div class="media-card">
@@ -78,6 +79,7 @@
               <h4>Band of Brothers</h4>
               <p>Dir. Erik • Tom • otros</p>
               <a href="https://es.wikipedia.org/wiki/Band_of_Brothers" target="_blank" rel="noopener noreferrer">Wikipedia</a>
+              <button class="btn-nav contador-btn" data-count="0">La vi O veces</button>
             </div>
 
             <div class="media-card">
@@ -85,6 +87,7 @@
               <h4>Station Eleven</h4>
               <p>Dir. Hiro Murai</p>
               <a href="https://en.wikipedia.org/wiki/Station_Eleven_(miniseries)" target="_blank" rel="noopener noreferrer">Wikipedia</a>
+              <button class="btn-nav contador-btn" data-count="0">La vi O veces</button>
             </div>
           </div>
         </article>
@@ -136,5 +139,14 @@
 
   <script src="js/main.js"></script>
   <script src="js/perfil.js"></script>
+  <script>
+    document.querySelectorAll('.contador-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const nuevo = Number(btn.dataset.count) + 1;
+        btn.dataset.count = nuevo;
+        btn.textContent = `La vi ${nuevo} veces`;
+      });
+  });
+  </script>
 </body>
 </html>
