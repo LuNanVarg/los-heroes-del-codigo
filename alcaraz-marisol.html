@@ -136,5 +136,14 @@
 
   <script src="js/main.js"></script>
   <script src="js/perfil.js"></script>
+  <script>
+  const foto = document.querySelector('.profile-photo-frame img');
+  if (foto) {
+    foto.style.cursor = 'pointer';
+    foto.addEventListener('click', () => {
+      foto.classList.toggle('foto-bn');
+    });
+  }
+</script>
 </body>
 </html>
