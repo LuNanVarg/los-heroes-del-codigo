@@ -452,8 +452,8 @@ body.dark-mode .top-bar {
   color: #333333;
 }
 
-.foto-bn { 
-  filter: grayscale(100%); 
+.profile-photo-frame img.foto-bn {
+  filter: grayscale(100%);
 }
 
 footer {
