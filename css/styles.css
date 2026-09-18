@@ -80,6 +80,28 @@ body.vintage-mode .top-bar {
 body.dark-mode .top-bar {
   background-color: rgba(18, 18, 18, 0.92);
 }
+
+body.dark-mode .btn-icon {
+  filter: invert(1);
+}
+
+body.dark-mode .main-headline,
+body.dark-mode .member-item h3,
+body.dark-mode .entry-title,
+body.dark-mode .profile-identity h1,
+body.dark-mode .profile-section-title {
+  color: var(--color-dark);
+}
+
+body.dark-mode .timeline-content p,
+body.dark-mode .profile-identity p,
+body.dark-mode .media-card p {
+  color: #C9C9C9;
+}
+
+body.dark-mode .profile-photo-frame {
+  background: #1E1E1E;
+}
 .top-bar::after {
   content: '';
   position: absolute;
