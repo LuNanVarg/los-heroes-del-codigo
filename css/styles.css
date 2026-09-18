@@ -36,6 +36,14 @@ body.vintage-mode {
   background-attachment: fixed;
 }
 
+body.dark-mode {
+  --color-dark: #EDEDED;
+  --color-paper: #1E1E1E;
+  --border-line: 1px solid #EDEDED;
+  background: #121212;
+  background-image: none;
+}
+
 .newspaper-container {
   width: 90%;
   max-width: 900px;
@@ -67,6 +75,10 @@ body.vintage-mode .top-bar {
   background-image: url('../img/fondo2.png');
   background-repeat: repeat;
   background-attachment: fixed;
+}
+
+body.dark-mode .top-bar {
+  background-color: rgba(18, 18, 18, 0.92);
 }
 .top-bar::after {
   content: '';
@@ -705,6 +717,10 @@ footer {
   
   body.vintage-mode .main-nav {
     background: rgba(255, 255, 255, 0.4);
+  }
+
+  body.dark-mode .main-nav {
+    background: rgba(30, 30, 30, 0.85);
   }
 
   .main-nav.active {
