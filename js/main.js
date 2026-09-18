@@ -2,20 +2,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const themeToggle = document.getElementById('themeToggle');
   const body = document.body;
+  const themes = ['default', 'vintage', 'dark'];
 
-  if (localStorage.getItem('pageTheme') === 'vintage') {
-    body.classList.add('vintage-mode');
-  }
+  const applyTheme = (theme) => {
+    body.classList.remove('vintage-mode', 'dark-mode');
+    if (theme === 'vintage') body.classList.add('vintage-mode');
+    if (theme === 'dark') body.classList.add('dark-mode');
+  };
+
+  let currentTheme = localStorage.getItem('pageTheme') || 'default';
+  applyTheme(currentTheme);
 
   if (themeToggle) {
     themeToggle.addEventListener('click', () => {
-      body.classList.toggle('vintage-mode');
-      
-      if (body.classList.contains('vintage-mode')) {
-        localStorage.setItem('pageTheme', 'vintage');
-      } else {
-        localStorage.setItem('pageTheme', 'default');
-      }
+      const nextIndex = (themes.indexOf(currentTheme) + 1) % themes.length;
+      currentTheme = themes[nextIndex];
+      applyTheme(currentTheme);
+      localStorage.setItem('pageTheme', currentTheme);
     });
   }
 
