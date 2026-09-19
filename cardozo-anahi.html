@@ -94,7 +94,7 @@
           <ul class="compact-list">
             <li data-dato="Lanzado en 2016"><strong>Generación Radical (live)</strong> — Barak</li>
             <li data-dato="12° álbum del artista (11° de estudio), 2023 vía AZ Music"><strong>Conxsion</strong> — Alex Zurdo</li>
-            <li data-dato="Lanzado el 23/02/2024"><strong>Altar (live)</strong> — Grupo Grace</li>
+            <li data-dato="Álbum colaborativo con grandes figuras de la música cristiana"><strong>Altar (live)</strong> — Grupo Grace</li>
           </ul>
         </article>
 
@@ -136,5 +136,13 @@
 
   <script src="js/main.js"></script>
   <script src="js/perfil.js"></script>
+  <script>
+    document.querySelectorAll('.compact-list li[data-dato]').forEach(li => {
+      li.style.cursor = 'help';
+      li.addEventListener('mouseenter', () => {
+        li.setAttribute('title', li.dataset.dato);
+      });
+    });
+  </script>
 </body>
 </html>
