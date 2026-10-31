@@ -39,32 +39,32 @@ un sistema de navegación continuo, desarrollado íntegramente con tecnologías 
 <img src="img/capturas/nav-mobile.png" alt="Menú hamburguesa abierto en vista mobile"> 
 
 * **Modo Vintage Persistente:** Alternador de edición impresa que almacena la preferencia del usuario en `localStorage`.
-  <img src="img/capturas/tema.png" alt="tema"> 
+  <img src="img/capturas/tema.webp" alt="tema"> 
 
 * **Carrusel de Miembros:** Navegación por desplazamiento horizontal suave (`scrollBy`).
-<img src="img/capturas/Carrusel.png" alt="Carrusel">
+<img src="img/capturas/Carrusel.webp" alt="Carrusel">
 
 * **Formulario de Contacto:** Captura de eventos `submit`, supresión de recarga por defecto (`preventDefault`) y feedback visual dinámico.
- <img src="img/capturas/formulario.png" alt="Formulario">
+ <img src="img/capturas/formulario.webp" alt="Formulario">
 
 * **Citas Editoriales Dinámicas:** Generador de frases aleatorias con algoritmo anti-repetición (`do...while`), personalizado por integrante mediante atributos `data-member`.
-<img src="img/capturas/cita.png" alt="cita editorial"> 
+<img src="img/capturas/cita.webp" alt="cita editorial"> 
 
 * **Interacciones Individuales por Perfil:** además de la cita compartida, cada integrante sumó su propia segunda función dinámica, implementada en un `<script>` propio dentro de cada página:
   * **Marisol:** click en su foto alterna entre color y blanco y negro.
-     <img src="img/capturas/interaccion-marisol.png" alt="interaccion-marisol"> 
+     <img src="img/capturas/interaccion-marisol.webp" alt="interaccion-marisol"> 
   
   * **Marcos:** click en cada película muestra/oculta su sinopsis.
-      <img src="img/capturas/interaccion-marcos.png" alt="interaccion-marcos"> 
+      <img src="img/capturas/interaccion-marcos.webp" alt="interaccion-marcos"> 
 
   * **Anahi:** al pasar el mouse por un disco aparece un dato asociado.
-     <img src="img/capturas/interaccion-anahi.png" alt="interaccion-anahi"> 
+     <img src="img/capturas/interaccion-anahi.webp" alt="interaccion-anahi"> 
 
   * **Ezequiel:** botón contador de "veces que la vi" por película.
-     <img src="img/capturas/interaccion-ezequiel.png" alt="interaccion-ezequiel"> 
+     <img src="img/capturas/interaccion-ezequiel.webp" alt="interaccion-ezequiel"> 
 
   * **Nancy:** click en cada habilidad muestra una descripción corta.
-    <img src="img/capturas/interaccion-nancy.png" alt="interaccion-nancy"> 
+    <img src="img/capturas/interaccion-nancy.webp" alt="interaccion-nancy"> 
 
 
 ## Estructura de Archivos
