@@ -6,7 +6,7 @@
 
 ## Integrantes del Grupo 17
 * **Alcaraz, Marisol:** [GitHub](https://github.com/Marisol14/PFO1_DSWF) | [Portfolio](https://pfo1-weld.vercel.app/)
-* **Artine, Marcos:** [GitHub](https://github.com/fernando-eb2406/dsw-frontend-pfo1) | [Portfolio](https://artine-marcos.vercel.app/)
+* **Artine, Marcos:** [GitHub](https://github.com/MarcosArtine/PFO1-FrontEnd-ArtineMarcos) | [Portfolio](https://artine-marcos.vercel.app/)
 * **Cardozo, Anahi:** [GitHub](https://github.com/anniecpk/Portafolio-Landing-page) | [Portfolio](https://portafolio-web-landing-page.vercel.app/)
 * **Cattalín, Ezequiel:** [GitHub](https://github.com/nilattac/PFO1-Cattalin-Landing-Personal) | [Portfolio](https://pfo-1-cattalin-landing-personal.vercel.app/)
 * **Vargas, Nancy:** [GitHub](https://github.com/LuNanVarg/vargasnancy) | [Portfolio](https://vargasnancy.vercel.app/)
